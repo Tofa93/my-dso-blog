@@ -156,15 +156,24 @@ const config: Config = {
 
 if (blogEnabled) {
   (config.themeConfig?.navbar as any).items.push({
-    to: '/blog', 
-    label: 'Blog', 
-    position: 'left'});
-  (
-    config.themeConfig?.footer as any
-  ).links[2].items.push({
     to: '/blog',
     label: 'Blog',
+    position: 'left',
   });
+
+  const footer = config.themeConfig?.footer as any;
+
+  const moreSection = footer.links.find(
+    (section: any) => section.title === 'More'
+  );
+
+  // Add blog link to footer
+  if (moreSection) {
+    moreSection.items.push({
+      to: '/blog',
+      label: 'Blog',
+    });
+  }
 }
 
 export default config;

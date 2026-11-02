@@ -94,5 +94,5 @@ Beachte dabei unbedingt, dass alle für das Projekt notwendigen Änderungen auf 
 ### Testing
 
 Bevor Du dein Projekt einreichst, solltest du die folgenden Dinge sicherstellen und getestet haben:
-- [ ] Die Anwendung kann lokal und in der CI-Pipeline gebaut werden.
-  - [ ] In der `package.json` des Projektes wirst du ein Skript finden, welches dir hierbei helfen kann einen Build-Prozess lokal auszulösen.
+- [x] Die Anwendung kann lokal und in der CI-Pipeline gebaut werden.
+  - [x] In der `package.json` des Projektes wirst du ein Skript finden, welches dir hierbei helfen kann einen Build-Prozess lokal auszulösen.
