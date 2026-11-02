@@ -6,10 +6,10 @@ Solltest du weitere Extras eingebaut haben, erwähne das kurz, damit sich die Me
 
 ### Vorhandene Dateien
 
-- [ ] Das Repository enthält einen Feature-branch `setup-blog`, welcher die Änderungen enthält, die notwendig sind, um das Projekt zu personalisieren und abschließend zu konfigurieren.
-- [ ] Das Repository enthält mehrere Commits, die zum Konfigurieren des Projektes erstellt wurden.
+- [x] Das Repository enthält einen Feature-branch `setup-blog`, welcher die Änderungen enthält, die notwendig sind, um das Projekt zu personalisieren und abschließend zu konfigurieren.
+- [x] Das Repository enthält mehrere Commits, die zum Konfigurieren des Projektes erstellt wurden.
   - [ ] Der Feature Branch soll über einen Pull-Request in den Hauptbranch des Repositories gemerged werden, sobald das Projekt freigegeben ist.
-- [ ] Eine Datei namens `README.md` ist vorhanden und entsprechend der Kriterien unten **erweitert** worden.
+- [x] Eine Datei namens `README.md` ist vorhanden und entsprechend der Kriterien unten **erweitert** worden.
 - [ ] Es befinden sich keine weiteren Dateien im Repository, ohne dass diese explizit in der README.md benannt und beschrieben werden.
 
 ### Konfigurationsschritte
@@ -42,28 +42,28 @@ GitHub Repository URL als Wert übergeben werden kann.
 
 #### README.md
 
-- [ ] Verändere die Deployment Sektion in der `README` so, dass dort in 1-2 Sätzen beschrieben wird, dass die Website mit Hilfe eines vorbereiteten GitHub Action Workflows automatisch nach GitHub Pages deployed wird, sobald ein Commit auf den Hauptbranch gepusht wird.
-  - [ ] Du musst dabei nicht erklären, wie das im Detail funktioniert. Zum jetzigen Zeitpunkt ist es ausreichend, diese Änderung vorzunehmen und die vorhandene Deployment Dokumentation mit der oberen Beschreibung zu ersetzen.
-  - [ ] Stelle auch sicher, dass andere Stellen angepasst wurden, die entweder zur Deployment Sektion verweisen, oder textuell darauf referenzieren.
-- [ ] Entferne die Contributing Sektion aus der `README`.
+- [x] Verändere die Deployment Sektion in der `README` so, dass dort in 1-2 Sätzen beschrieben wird, dass die Website mit Hilfe eines vorbereiteten GitHub Action Workflows automatisch nach GitHub Pages deployed wird, sobald ein Commit auf den Hauptbranch gepusht wird.
+  - [x] Du musst dabei nicht erklären, wie das im Detail funktioniert. Zum jetzigen Zeitpunkt ist es ausreichend, diese Änderung vorzunehmen und die vorhandene Deployment Dokumentation mit der oberen Beschreibung zu ersetzen.
+  - [x] Stelle auch sicher, dass andere Stellen angepasst wurden, die entweder zur Deployment Sektion verweisen, oder textuell darauf referenzieren.
+- [x] Entferne die Contributing Sektion aus der `README`.
 
 #### GitHub Projekt Einstellungen
 
 Um dein Projekt am Ende auch wirklich über GitHub Pages bereitstellen zu können, musst du das auch in deinen Projekteinstellungen des GitHub Repositories konfigurieren.
 Befolge dazu die folgenden Schritte:
 
-- [ ] Gehe in die **Einstellungen** des Projektes.
-- [ ] Gehe innerhalb der Einstellungen zu den **Pages** Einstellungen:
-  - [ ] Ändere die existierende Konfiguration unterhalb des Bereichs Build & Deploy so ab, dass die Quelle **GitHub Actions** ist.
+- [x] Gehe in die **Einstellungen** des Projektes.
+- [x] Gehe innerhalb der Einstellungen zu den **Pages** Einstellungen:
+  - [x] Ändere die existierende Konfiguration unterhalb des Bereichs Build & Deploy so ab, dass die Quelle **GitHub Actions** ist.
 
 
 #### `docs/projects/docusaurus-learning-journal.md`
 
-- [ ] Lege im Ordner **docs/projects** eine Markdown Datei mit dem Namen `docusaurus-learning-journal.md` an.
-  - [ ] Wenn du **mehr als eine Datei** für dieses Projekt hinterlegen willst, solltest du einen Ordner für das Projekt anlegen, indem alle Dateien ablegt werden.
+- [x] Lege im Ordner **docs/projects** eine Markdown Datei mit dem Namen `docusaurus-learning-journal.md` an.
+  - [x] Wenn du **mehr als eine Datei** für dieses Projekt hinterlegen willst, solltest du einen Ordner für das Projekt anlegen, indem alle Dateien ablegt werden.
   - Der Ordner sollte entsprechend auch als `docusaurus-learning-journal` benannt sein.
-- [ ] Fülle diese Datei mit README artigen Inhalten, also beschreibe wie du die Konfiguration des Template Projektes vorgenommen hast und welche Schritte du dabei befolgen musstest.
-  - [ ] Du kannst dafür die vorhandene Vorlage in `example-project.md` anschauen und dich daran orientieren.
+- [x] Fülle diese Datei mit README artigen Inhalten, also beschreibe wie du die Konfiguration des Template Projektes vorgenommen hast und welche Schritte du dabei befolgen musstest.
+  - [x] Du kannst dafür die vorhandene Vorlage in `example-project.md` anschauen und dich daran orientieren.
 
 ## Dokumentation
 
