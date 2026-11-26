@@ -1,6 +1,7 @@
 ---
 slug: docusaurus-learning-journal
 title: "New Project: Docusaurus Learning Journal"
+authors: [tofa93]
 description: "My personal developer portfolio and learning journal is now part of my projects."
 date: 2026-11-02
 tags: [docusaurus, typescript, github-pages, devsecops]

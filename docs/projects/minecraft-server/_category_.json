@@ -1,0 +1,7 @@
+{
+  "label": "Minecraft Server",
+  "link": {
+    "type": "generated-index",
+    "description": "Development and deployment of a custom Dockerized Minecraft Java Edition server."
+  }
+}

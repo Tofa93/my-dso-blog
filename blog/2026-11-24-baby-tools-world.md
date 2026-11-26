@@ -1,6 +1,7 @@
 ---
 slug: baby-tools-world
 title: "New Project: Baby Tools World"
+authors: [tofa93]
 description: "A new Django project added to my developer portfolio."
 date: 2026-11-24
 tags: [django, python, docker, devsecops]

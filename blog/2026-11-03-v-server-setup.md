@@ -1,6 +1,7 @@
 ---
 slug: v-server-setup
 title: "New Project: V-Server Setup"
+authors: [tofa93]
 description: "My Linux V-Server setup with SSH, NGINX, and GitHub access."
 date: 2026-11-03
 tags: [linux, ssh, nginx, devsecops]
