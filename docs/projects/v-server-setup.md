@@ -273,4 +273,3 @@ git ls-remote git@github.com:Tofa93/my-dso-blog.git HEAD
 - [Git configuration](https://git-scm.com/docs/git-config)
 - [GitHub: SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - [GitHub: SSH authentication test](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
-- [Docusaurus project page](../../docs/projects/vserver-setup.md)
